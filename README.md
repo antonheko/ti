@@ -1,3 +1,5 @@
+![ti logo] (ti-logo.png)
+
 # Pre-work - *Ti*
 
 **Ti** is a tip calculator application for iOS.
