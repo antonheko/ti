@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001094931D90D7C800FF5177 /* SanFranciscoDisplay-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 001094921D90D7C800FF5177 /* SanFranciscoDisplay-Ultralight.otf */; };
 		008DC9411D8B09B4002BE8CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008DC9401D8B09B4002BE8CA /* AppDelegate.swift */; };
 		008DC9431D8B09B4002BE8CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008DC9421D8B09B4002BE8CA /* ViewController.swift */; };
 		008DC9461D8B09B4002BE8CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008DC9441D8B09B4002BE8CA /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		008DC94B1D8B09B4002BE8CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008DC9491D8B09B4002BE8CA /* LaunchScreen.storyboard */; };
 		008DC9561D8B09B4002BE8CA /* tiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008DC9551D8B09B4002BE8CA /* tiTests.swift */; };
 		008DC9611D8B09B4002BE8CA /* tiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008DC9601D8B09B4002BE8CA /* tiUITests.swift */; };
+		008DC9751D8EC8F8002BE8CA /* SanFranciscoDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 008DC9741D8EC8F8002BE8CA /* SanFranciscoDisplay-Bold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001094921D90D7C800FF5177 /* SanFranciscoDisplay-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SanFranciscoDisplay-Ultralight.otf"; path = "tiResources/SanFranciscoDisplay-Ultralight.otf"; sourceTree = "<group>"; };
 		008DC93D1D8B09B4002BE8CA /* ti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		008DC9401D8B09B4002BE8CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		008DC9421D8B09B4002BE8CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		008DC95C1D8B09B4002BE8CA /* tiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		008DC9601D8B09B4002BE8CA /* tiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiUITests.swift; sourceTree = "<group>"; };
 		008DC9621D8B09B4002BE8CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008DC9741D8EC8F8002BE8CA /* SanFranciscoDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SanFranciscoDisplay-Bold.otf"; path = "tiResources/SanFranciscoDisplay-Bold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		008DC9341D8B09B3002BE8CA = {
 			isa = PBXGroup;
 			children = (
+				001094921D90D7C800FF5177 /* SanFranciscoDisplay-Ultralight.otf */,
+				008DC9741D8EC8F8002BE8CA /* SanFranciscoDisplay-Bold.otf */,
 				008DC93F1D8B09B4002BE8CA /* ti */,
 				008DC9541D8B09B4002BE8CA /* tiTests */,
 				008DC95F1D8B09B4002BE8CA /* tiUITests */,
@@ -232,7 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				001094931D90D7C800FF5177 /* SanFranciscoDisplay-Ultralight.otf in Resources */,
 				008DC94B1D8B09B4002BE8CA /* LaunchScreen.storyboard in Resources */,
+				008DC9751D8EC8F8002BE8CA /* SanFranciscoDisplay-Bold.otf in Resources */,
 				008DC9481D8B09B4002BE8CA /* Assets.xcassets in Resources */,
 				008DC9461D8B09B4002BE8CA /* Main.storyboard in Resources */,
 			);
@@ -503,6 +511,7 @@
 				008DC9671D8B09B4002BE8CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		008DC9681D8B09B4002BE8CA /* Build configuration list for PBXNativeTarget "tiTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +520,7 @@
 				008DC96A1D8B09B4002BE8CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		008DC96B1D8B09B4002BE8CA /* Build configuration list for PBXNativeTarget "tiUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +529,7 @@
 				008DC96D1D8B09B4002BE8CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
